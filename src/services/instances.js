@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // define the base url for the API
-const baseURL = 'http://localhost:3000/api';
+const baseURL = 'https://urlsortner-backend-z4gv.onrender.com/api';
 
 // create an axios instance
 const instance = axios.create({
