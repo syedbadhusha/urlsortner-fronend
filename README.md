@@ -1,8 +1,17 @@
-# React + Vite
+## Packages
+    -- React Vite
+    -- React Formik
+    -- React Redux
+    -- React Toastify
+    -- React Router
+    -- Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+    -- Register User
+    -- Login User
+    -- Logout User
+    -- Forgot password
+    -- Activate User
+    -- Create short URL
+    -- List of Created URL
+    -- Clicked Count of Created URL
