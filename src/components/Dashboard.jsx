@@ -21,7 +21,7 @@ function Dashboard() {
       "November",
       "December",
     ];
-    return monthNames[monthNumber - 1]; // Subtract 1 because months are zero-based
+    return monthNames[monthNumber - 1];
   }
   async function getUrlList() {
     try {

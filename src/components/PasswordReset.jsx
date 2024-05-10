@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { useFormik } from 'formik';
 import React from 'react'
 import { useNavigate } from 'react-router';
@@ -18,7 +17,7 @@ function PasswordReset() {
       },
       onSubmit: async (values,{resetForm}) => {
         try{
-          values.passwordChangeLink=`http://localhost:5173/newpassword/${values.userName}`
+          values.passwordChangeLink=`https://urlsortner-backend-z4gv.onrender.com/${values.userName}`
           const res = await userServices.passwordReset(values)
           alert(res.data.message)
           resetForm();  

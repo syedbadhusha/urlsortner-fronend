@@ -2,7 +2,6 @@ import { useFormik } from 'formik';
 import React from 'react'
 import { useNavigate } from 'react-router';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
 import userServices from '../services/userServices';
 
 function Login() {

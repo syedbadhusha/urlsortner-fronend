@@ -30,7 +30,7 @@ function Register() {
         },
         onSubmit: async (values,{resetForm}) => {
           try{
-            values.activationLink = `http://localhost:5173/activation/${values.userName}`
+            values.activationLink = `https://luxury-queijadas-04da4f.netlify.app/activation/${values.userName}`
             const res = await userServices.resgister(values)
             alert(res.data.message)
             resetForm();
